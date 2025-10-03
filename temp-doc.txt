@@ -1,0 +1,13 @@
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+Once in the the greends-fads-first-project main directory we want to copy the temp files from the local directory of my-first-project. 
+So the translation of this copy command is from the branch under copy all files stating temp- to the directory above.
+
+5.2. Can you explain why, in this case, we did not have to do git init?
+Git init is a way to tell that this folder is a hidden repo. of git language. 
+which theres is the metadata and folder that git uses to make changes to the version, make new documents etc. 
+. So since in the beginning we created the hidden repo. to create the temp files and then we copied them to a online git repo. there was no change to the "language spoken".
+
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+Yes you must so that the temp files become avaliable in the git hub repo..
+ So we begin by checking the status of the repo. which it will say that the files need to be commited, so we commit them with $ git commit * -m "initial commit". 
+ Then we push your local repository to the remote GitHub repository.
